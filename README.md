@@ -1,3 +1,12 @@
+# Reaktor23 hack
+
+Add support for china TCS3472 modules:
+aka: TCS34723 and TCS34727
+
+Without this little modification this adafruit library was not able (allowed) to read those sensors.
+See softlock in Adafruit_TCS34725.cpp line 222
+
+
 # Adafruit TCS34725 Color Sensor Driver[![Build Status](https://github.com/adafruit/Adafruit_TCS34725/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_TCS34725/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/assets/doxygen_badge.svg)](http://adafruit.github.io/Adafruit_TCS34725/html/index.html)
 
 <a href="https://www.adafruit.com/product/1334"><img src="assets/board.jpg?raw=true" width="500px"></a>
